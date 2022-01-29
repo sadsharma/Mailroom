@@ -1,1 +1,18 @@
 # Mailroom
+-Objective:
+  - Create a functioning mailroom simulator that uses stacks to implement an organized system for packages and discards them in a timely fashion
+-Constraints:
+  - Each package stack can only hold up to 7 packages
+  - The stacks are filled alphabetically by name so there is a stack A-G, H-J, K-M, N-R, S-Z
+  - However if one stack is full it it will go to the nearest stack
+  - The floor is infinite and will never fill up
+  - Packages are discarded after 5 days
+-Needs to do:
+  - Get Packages for a user - gets the topmost package for a user
+  - Deliver Package
+  - Make it tomorrow
+  - Print the stacks
+  - Move a package from one stack to another
+  - Find packages in the wrong stack and move to Floor
+  - List all the packages awaiting a user
+  - Empty the floor, moving all packages to the trash.
